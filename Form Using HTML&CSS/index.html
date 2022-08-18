@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h2 class="main_heading">Payment Form</h2>
+    <hr>
+    <h3>User Information</h3>
+    <div class="name">
+        Name:- <input type= "text" placeholder="Vishal Parasram">
+    </div>
+    <br>
+    <div class="gender">
+        Gender:-<input type="radio" value="male" name="gender">male:-
+                <input type="radio" value="female name="gender">female:-
+    </div>
+    <br>
+    <div class="add">
+        Address:- <textarea id="address" name="address" placeholder="Enter your address"></textarea>
+    </div>
+    <br>
+    <div class="email">
+        Email:- <input type="email" placeholder="parasramvishal0@gmail.com">
+    </div>
+    <br>
+    <div class="pincode">
+        Pincode:- <input type="text" placeholder="123456">
+    </div>
+    <h3>Payment Information</h3>
+    <div class="cardtype">
+        Card Type:- <select name="card type ="card type">
+        <option value="Debit">Debit</option>
+        <option value="credit">Credit</option>
+        <option value="upi">upi</option>
+        </select>
+    </div>
+    <br>
+    <div class="cardnumber">
+        cardnumber:- <input type="text" placeholder="1111-2222-3333-4444">
+    </div>
+    <br>
+    <div class="date">
+        Expiration date:- 
+        <input type="date">
+    </div>
+    <br>
+        <div class="cvv">
+            CVV:-
+            <input type="text" placeholder="123">
+        </div>
+        <br>
+    <b> <input type="submit" value="Pay Now"> </b>
+</div>
+</body>
+</html>
